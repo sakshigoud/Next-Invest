@@ -1,0 +1,82 @@
+/* #root {
+  max-width: 1880px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+
+.overlay-text {
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .text-center {
+    text-align: center !important;
+
+  }
+
+  .mb-3 {
+    margin-top: 20px;
+
+    margin-left: 0;
+
+  }
+
+  h2 {
+    font-size: 1.5rem;
+
+    margin-left: 0;
+
+  }
+
+  p {
+    margin-left: 0;
+
+  }
+
+  img {
+    margin-left: 0;
+    margin-top: 0;
+
+  }
+
+  .col-md-6 {
+    text-align: center;
+
+  }
+}
